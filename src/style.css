@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+/* Purple & Beige Theme - Dark Mode Default */
+@theme {
+  /* Purple Color Palette */
+  --color-purple-50: #faf5ff;
+  --color-purple-100: #f3e8ff;
+  --color-purple-200: #e9d5ff;
+  --color-purple-300: #d8b4fe;
+  --color-purple-400: #c084fc;
+  --color-purple-500: #a855f7;
+  --color-purple-600: #9333ea;
+  --color-purple-700: #7e22ce;
+  --color-purple-800: #6b21a8;
+  --color-purple-900: #581c87;
+  --color-purple-950: #3b0764;
+
+  /* Beige Color Palette */
+  --color-beige-50: #faf9f6;
+  --color-beige-100: #f5f3ed;
+  --color-beige-200: #ebe7db;
+  --color-beige-300: #e0d9c8;
+  --color-beige-400: #d4cab5;
+  --color-beige-500: #c8bba2;
+  --color-beige-600: #b8a88f;
+  --color-beige-700: #9d8a73;
+  --color-beige-800: #7d6d5a;
+  --color-beige-900: #5d4f41;
+  --color-beige-950: #3d3329;
+
+  /* Dark Mode Theme Colors */
+  --color-dark-bg: #1a1625;
+  --color-dark-surface: #241f2e;
+  --color-dark-surface-elevated: #2d2738;
+  --color-dark-text: #f5f3ed;
+  --color-dark-text-muted: #c8bba2;
+  --color-dark-border: #3b2f4a;
+  --color-dark-accent: #a855f7;
+  --color-dark-accent-hover: #9333ea;
+}
+
+/* Dark Mode as Default */
+:root {
+  color-scheme: dark;
+  --font-display: "Orbitron";
+  --font-body: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-pixel: "Press Start 2P", "VT323", monospace;
+}
+
+html {
+  background-color: #1a1625;
+  color: #f5f3ed;
+} 
+
+body {
+  background-color: #1a1625;
+  color: #f5f3ed;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+} 
+
+/* Fonts: Futuristic (Orbitron) & Pixel (Press Start 2P) + Poppins fallback */
+@font-face {
+  font-family: "Orbitron";
+  src: url('/fonts/Orbitron-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Orbitron-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Press Start 2P";
+  src: url('/fonts/PressStart2P-Regular.woff2') format('woff2'),
+       url('./assets/fonts/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url('/fonts/Poppins-Regular.woff2') format('woff2'),
+       url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url('/fonts/Poppins-Medium.woff2') format('woff2'),
+       url('./assets/fonts/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url('/fonts/Poppins-Bold.woff2') format('woff2'),
+       url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Base layer to ensure utilities map to tokens (no tailwind.config needed) */
+@layer base {
+  html, body {
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .font-sans { font-family: var(--font-body) !important; }
+  .font-display { font-family: var(--font-display) !important; }
+  .font-mono  { font-family: var(--font-pixel) !important; }
+}
+
+/* Utility classes */
+.pixel { font-family: var(--font-pixel); }
+.code, pre, code { font-family: var(--font-pixel); }
+
+h1,h2,h3 {
+  font-family: var(--font-display);
+  letter-spacing: 0.4px;
+}
+
+.about-content {
+  max-width: 70ch;
+  line-height: 1.6;
+  font-size: 1.0625rem;
+}
+
+.profile-img {
+  border: 2px solid rgba(168,85,247,0.18);
+  box-shadow: 0 12px 30px rgba(10, 6, 16, 0.6);
+}

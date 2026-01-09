@@ -1,0 +1,11 @@
+{
+  "email": "rajendraguptha1357@gmail.com",
+  "phone": "+91 8328668031",
+  "location": "Available for Remote Work",
+  "socialLinks": [
+    { "name": "GitHub", "url": "#", "icon": "📦" },
+    { "name": "LinkedIn", "url": "#", "icon": "💼" },
+    { "name": "Twitter", "url": "#", "icon": "🐦" },
+    { "name": "Email", "url": "mailto:rajendraguptha1357@gmail.com", "icon": "✉️" }
+  ]
+}
