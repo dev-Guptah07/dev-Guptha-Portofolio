@@ -1,0 +1,37 @@
+{
+  "name": "devguptah-101",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "check:fonts": "node scripts/check-fonts.js",
+    "fetch:fonts": "node scripts/fetch-fonts.js",
+    "test": "vitest",
+    "test:e2e": "playwright test",
+    "dev:ci": "vite --port 5173",
+    "e2e:ci": "start-server-and-test 'npm run dev:ci' http://localhost:5173 'npm run test:e2e'"
+  },
+  "dependencies": {
+    "pinia": "^3.0.4",
+    "vue": "^3.5.24",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.23",
+    "@playwright/test": "^1.31.0",
+    "start-server-and-test": "^1.14.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4",
+    "vitest": "^1.0.0",
+    "vue-tsc": "^3.1.4"
+  }
+}

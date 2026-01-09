@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Frontend",
+    "technologies": [
+      { "name": "Vue.js", "level": "Expert", "icon": "⚡" },
+      { "name": "TypeScript", "level": "Advanced", "icon": "📘" },
+      { "name": "JavaScript (ES6+)", "level": "Expert", "icon": "🟨" },
+      { "name": "HTML5 / CSS3", "level": "Expert", "icon": "🎨" },
+      { "name": "Tailwind CSS", "level": "Advanced", "icon": "💨" },
+      { "name": "Vuex / Pinia", "level": "Advanced", "icon": "🗄️" }
+    ]
+  },
+  {
+    "title": "Backend",
+    "technologies": [
+      { "name": ".NET Core / .NET 6+", "level": "Expert", "icon": "🔷" },
+      { "name": "ASP.NET MVC", "level": "Expert", "icon": "🌐" },
+      { "name": "Web API / REST", "level": "Expert", "icon": "🔌" },
+      { "name": "GraphQL", "level": "Intermediate", "icon": "📊" },
+      { "name": "C#", "level": "Expert", "icon": "💻" }
+    ]
+  },
+  {
+    "title": "Databases",
+    "technologies": [
+      { "name": "MongoDB", "level": "Advanced", "icon": "🍃" },
+      { "name": "PostgreSQL", "level": "Advanced", "icon": "🐘" },
+      { "name": "SQL Server", "level": "Expert", "icon": "🗄️" },
+      { "name": "MySQL", "level": "Advanced", "icon": "🐬" },
+      { "name": "Entity Framework", "level": "Expert", "icon": "🔧" }
+    ]
+  },
+  {
+    "title": "Tools & Others",
+    "technologies": [
+      { "name": "Git / GitHub", "level": "Expert", "icon": "📦" },
+      { "name": "Docker", "level": "Intermediate", "icon": "🐳" },
+      { "name": "Azure DevOps", "level": "Advanced", "icon": "☁️" },
+      { "name": "CI/CD", "level": "Advanced", "icon": "🔄" },
+      { "name": "Agile / Scrum", "level": "Advanced", "icon": "📋" }
+    ]
+  }
+]

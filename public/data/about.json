@@ -1,0 +1,10 @@
+{
+  "title": "Full Stack Developer",
+  "yearsExperience": 9,
+  "bio": [
+    "Hello! I'm a results-driven Full Stack Developer with 3.5+ years of experience building and scaling modern web applications with a strong focus on performance, maintainability, and clean architecture.",
+    "My core expertise includes .NET Core, Vue.js, and MongoDB, where I specialize in SPA modernization, clean architecture migrations, and resolving complex production issues using tools like Dynatrace. I actively work within Agile teams and contribute to initiatives such as the TTM model to improve software delivery efficiency.",
+    "Currently, I am expanding my skill set in React and micro-frontend architecture to design scalable, future-ready front-end systems. Alongside core development, I explore Generative AI concepts, including Prompt Engineering, to experiment with innovative development workflows and smarter problem-solving approaches."
+  ],
+  "profilePic": "/src/assets/ProfilerPic.jpg"
+}
