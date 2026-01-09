@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Full Stack Development | From User Intent to Distributed Systems",
+    "excerpt": "Full Stack Development — From User Intent to Distributed Systems is an article that explains full stack development as an architectural discipline about where and why logic runs across browser, server, and infrastructure, not just “UI + APIs.” It walks through the perspectives of users, frontend, backend, and a full stack architect, and ties them into real-world patterns like REST/GraphQL/gRPC, event-driven systems, microservices, and cloud concerns such as caching, security, and cost.",
+    "date": "January 2026",
+    "readTime": "10 min read",
+    "category": "Full Stack",
+    "link": "https://devguptah.substack.com/p/full-stack-development-from-user"
+  }
+]

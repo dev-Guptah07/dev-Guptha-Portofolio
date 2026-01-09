@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Shipping Full-Stack Features with TTM Velocity",
+    "company": "Shipping Logistics Account",
+    "period": "Full-Stack cloud native",
+    "highlights": [
+      "Delivered end-to-end full-stack Jira features covering Vue.js UI, backend APIs, and worker services",
+      "Developed interactive Vue.js components with reactive state management, including sliders and drawer-based views",
+      "Built and maintained backend services following clean architecture, SonarQube standards, and proper cancellation token handling",
+      "Designed and optimized MongoDB CRUD operations with indexing to ensure reliable and high-performance data access",
+      "Implemented event-driven processing using SQS and Kafka to support scalable asynchronous workflows"
+    ]
+  },
+  {
+    "title": "Frontend Engineering Across Modern SPAs",
+    "company": "Shipping Logistics Account",
+    "period": "Front-End Libraries to frameworks",
+    "highlights": [
+      "Developed and maintained frontend applications primarily using Vue.js, with hands-on experience contributing to Angular SPA development across a few Agile sprints",
+      "Executed migration of legacy Vue 2 applications to Vue 3, improving application performance and code maintainability",
+      "Refactored frontend logic from Options API to Composition API, enabling cleaner abstractions and better state organization",
+      "Integrated external services such as Google Maps API to support interactive and location-based user features",
+      "Migrated state management from Vuex to Pinia and embedded Vue SPAs into a Single SPA architecture to support micro-frontend initiatives"
+    ]
+  },
+  {
+    "title": "Domain-Driven Backend Engineering",
+    "company": "Shipping Logistics Account",
+    "period": "Backend API's to Databases",
+    "highlights": [
+      "Designed and developed .NET APIs to meet complex business requirements using N-tier architecture across multiple enterprise applications",
+      "Migrated backend components from traditional N-tier architecture to Clean Architecture, improving modularity, testability, and long-term maintainability",
+      "Implemented distributed caching using Redis to enhance API performance and reduce database load in high-traffic scenarios",
+      "Applied Domain-Driven Design principles and established design patterns such as Factory, Mediator, and Facade within Clean Architecture components",
+      "Built secure and maintainable data access layers using Fluent API, integrating both SQL and NoSQL databases including MongoDB, while addressing Aqua scan security vulnerabilities"
+    ]
+  }
+]

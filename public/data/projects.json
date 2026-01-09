@@ -1,0 +1,51 @@
+[
+    {
+    "title": "Vue UI Enhancements & State Management",
+    "description": "Implemented interactive Vue components including sliders and drawer-based views. Managed reactive state, user-driven events, and form workflows while maintaining performance and UI consistency.",
+    "technologies": ["Vue.js", "Pinia", "Vuex", "Composition API"],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "Vue 2 to Vue 3 Migration Task",
+    "description": "Migrated existing Vue 2 modules to Vue 3, refactoring Options API logic into Composition API for improved readability, reusability, and maintainability.",
+    "technologies": ["Vue.js 3", "Vue.js 2", "Composition API"],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "Micro-Frontend SPA Integration",
+    "description": "Embedded Vue SPA modules into a Single SPA architecture to support micro-frontend adoption, enabling independent deployment and better frontend scalability.",
+    "technologies": ["Vue.js", "Single SPA", "Micro-Frontends"],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "Backend Architecture Migration Task",
+    "description": "Refactored backend components from N-tier architecture to Clean Architecture, applying Domain-Driven Design principles and implementing patterns such as Factory, Mediator, and Facade.",
+    "technologies": [".NET Core", "Clean Architecture", "DDD", "MediatR"],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "API Performance & Caching Optimization",
+    "description": "Improved API performance by implementing distributed caching with Redis, optimizing MongoDB queries with indexing, and handling request cancellation using cancellation tokens.",
+    "technologies": [".NET Core", "Redis", "MongoDB", "SQL Server"],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "Security & Code Quality Improvements",
+    "description": "Resolved SonarQube code quality issues and remediated Aqua security scan vulnerabilities by applying secure coding practices and clean code standards.",
+    "technologies": ["SonarQube", "Aqua Security", ".NET Core"],
+    "link": "#",
+    "github": "#"
+  },
+  {
+    "title": "External Service & Angular SPA Contribution",
+    "description": "Integrated external services such as Google Maps API into Vue applications and contributed to Angular SPA development for a limited number of Agile sprints.",
+    "technologies": ["Vue.js", "Angular", "Google Maps API", "TypeScript"],
+    "link": "#",
+    "github": "#"
+  }
+]
